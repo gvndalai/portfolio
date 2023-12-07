@@ -6,7 +6,7 @@ import { About } from "../Components/About";
 export default function index() {
   return (
     <div
-      class="absolute left-1/2 right-1/2 -translate-x-1/2   w-[1440px] px-[80px] py-[16px] "
+      class="absolute left-1/2 right-1/2 -translate-x-1/2   w-[1440px] px-[80px] py-[16px] flex flex-col items-center "
       id="background"
     >
       <Header />

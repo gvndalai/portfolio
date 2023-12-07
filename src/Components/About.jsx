@@ -1,13 +1,13 @@
 import React from "react";
 export const About = () => {
   return (
-    <div class="about-wrapper w-full h-[962px] px-24 py-20 flex bg-gray-50 flex-col  items-center">
+    <div class="about-wrapper w-[1440px] h-auto px-24 py-20 flex bg-gray-50 flex-col  items-center">
       <div class="flex flex-col gap-12 w-full py-8 items-center">
-        <button class="About-me-text w-[105px] h-[28px] px-5 py-1 rounded-xl flex items-center justify-center font-medium text-sm bg-custom-color-about-me">
+        <button class="About-me-text w-[105px] h-[28px] px-5 py-1 rounded-xl flex items-center justify-center font-medium text-sm bg-custom-color-about-me bg-custom-gray-light">
           About me
         </button>
         <div class="row-cont flex gap-12 justify-between w-full flex-wrap">
-          <div class="flex items-start  h-full">
+          <div class="flex items-start w-[584px] h-full ">
             <img
               class="flex w-[380px] h-[480px] shadow-custom"
               src="https://i.pinimg.com/564x/68/c6/18/68c6180f7a51cf32456a977c8c2ea8c2.jpg"

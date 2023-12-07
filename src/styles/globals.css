@@ -27,6 +27,13 @@ body {
 .bg-custom-color-about-me{
   background-color: #E5E7EB;
 }
+.bg-custom-gray-light:hover {
+  background-color: #F9FAFB;
+}
+.bg-custom-gray-light:active{
+  background-color: #F3F4F6;
+}
+
 main{
   /* position: absolute;
   left: 50%;
