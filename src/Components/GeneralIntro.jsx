@@ -38,7 +38,7 @@ export const GeneralIntro = () => {
             <FigmaIcon />
           </div>
         </div>
-        <img src="erwin.png"></img>
+        <img src="erwin.png" class="shadow-custom"></img>
       </div>
     </div>
   );

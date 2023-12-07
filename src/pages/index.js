@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import { Header } from "../Components/Header";
 import { GeneralIntro } from "../Components/GeneralIntro";
+import { About } from "../Components/About";
 
 export default function index() {
   return (
@@ -10,6 +11,7 @@ export default function index() {
     >
       <Header />
       <GeneralIntro />
+      <About />
     </div>
   );
 }

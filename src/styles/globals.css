@@ -21,7 +21,12 @@ body {
   position: relative;
 
 }
-
+.shadow-custom{
+  box-shadow: 10px 10px  #E5E7EB;
+}
+.bg-custom-color-about-me{
+  background-color: #E5E7EB;
+}
 main{
   /* position: absolute;
   left: 50%;
