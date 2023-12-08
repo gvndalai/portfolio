@@ -5,7 +5,7 @@ import { DarkModeIcon } from "./Icons/DarkModeIcon";
 
 export const Header = () => {
   return (
-    <div class="w-full flex justify-between px-[32px] ">
+    <div class="w-full flex justify-between px-[80px] py-[16px]  ">
       <SSicon />
       <div class="flex gap-6">
         <div class="flex gap-6 items-center">

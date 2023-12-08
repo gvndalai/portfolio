@@ -22,22 +22,22 @@ const UtilityFirstBase = [
     title: "React",
   },
 
-  // {
-  //   icon: <NextIcon />,
-  //   title: "Next.js",
-  // },
-  // {
-  //   icon: <NodeIcon />,
-  //   title: "Node.js",
-  // },
+  {
+    icon: <NextIcon />,
+    title: "Next.js",
+  },
+  {
+    icon: <NodeIcon />,
+    title: "Node.js",
+  },
   {
     icon: <ExpressIcon />,
     title: "Express.js",
   },
-  // {
-  //   icon: <NestIcon />,
-  //   title: "Nest.js",
-  // },
+  {
+    icon: <NestIcon />,
+    title: "Nest.js",
+  },
   {
     icon: <SocketIcon />,
     title: "Socket.io",
@@ -46,9 +46,9 @@ const UtilityFirstBase = [
 
 export const Utilities = () => {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-between items-center w-full">
       {UtilityFirstBase.map((props) => (
-        <div key={props.title}>
+        <div key={props.title} className="flex flex-col items-center ">
           {props.icon}
           <p>{props.title}</p>
         </div>
