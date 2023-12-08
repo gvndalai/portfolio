@@ -42,6 +42,8 @@ export default function index() {
         return <Background key={index} title={job.title} />;
       })}
       {/* <Background title="hi" /> */}
+      {/* <Background title="hi" /> */}
+      {/* <Background title="hi" /> */}
     </div>
   );
 }
