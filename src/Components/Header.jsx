@@ -5,9 +5,9 @@ import { DarkModeIcon } from "./Icons/DarkModeIcon";
 
 export const Header = () => {
   return (
-    <div class="w-full flex justify-between px-[80px] py-[16px]  ">
+    <div class=" w-full flex justify-between px-[80px] `sm:p-[16px]` py-[16px]  ">
       <SSicon />
-      <div class="flex gap-6">
+      <div class="lg:flex sm:flex lg:gap-6 hidden lg:block ">
         <div class="flex gap-6 items-center">
           <div class="hover:text-gray-900 cursor-pointer text-gray-600">
             About
