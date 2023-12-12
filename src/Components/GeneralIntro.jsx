@@ -6,13 +6,13 @@ import { TwitterIcon } from "./Icons/TwitterIcon";
 import { FigmaIcon } from "./Icons/FigmaIcon";
 export const GeneralIntro = () => {
   return (
-    <div class="w-full">
-      <div class="flex justify-center gap-12 w-full px-8 py-24 m-0">
-        <div class="flex flex-col w-full gap-12">
+    <div class="w-full h-fit">
+      <div class="sm:flex-row flex flex-col-reverse justify-center gap-12 w-full px-20 py-24 m-0 h-fit ">
+        <div class="flex flex-col w-fit gap-12 h-fit">
           <h1 class="text-5xl font-bold leading-16 w-auto h-16">
             Erwin Smith 🔰
           </h1>
-          <p class="text-gray-600 font-inter text-base font-normal leading-6">
+          <span class="text-gray-600 font-inter text-base font-normal leading-6 w-fit">
             Erwin Smith (エルヴィン・スミス Eruvin Sumisu?) was the 13th
             commander (団長 Danchō?) of the Scout Regiment. Discerning,
             intelligent, and widely respected, Erwin was an able commander.
@@ -21,7 +21,7 @@ export const GeneralIntro = () => {
             more than willing to stake their lives at his order. Erwin developed
             the Long-Distance Enemy Scouting Formation. Due to uncertainty about
             his future, he later named Hange Zoë as his successor.`
-          </p>
+          </span>
           <div class="flex flex-col gap-2">
             <div class="flex gap-4 items-center">
               <LocationIcon />
@@ -38,7 +38,7 @@ export const GeneralIntro = () => {
             <FigmaIcon />
           </div>
         </div>
-        <img src="erwin.png" class="shadow-custom"></img>
+        <img src="erwin.png" class="shadow-custom w-[280px] h-[320px]"></img>
       </div>
     </div>
   );
