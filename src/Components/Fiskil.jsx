@@ -35,7 +35,7 @@ export const Fiskil = (props) => {
             <FiskilWork
               key={index}
               title={skil.title}
-              description={skil.description}
+              git
               buttons={skil.buttons}
             />
           );

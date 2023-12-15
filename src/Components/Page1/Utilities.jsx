@@ -46,7 +46,7 @@ const UtilityFirstBase = [
 
 export const Utilities = () => {
   return (
-    <div className="flex sm:justify-between items-center w-full flex-wrap gap-[20px]">
+    <div className="sm:flex sm:justify-between sm:items-center w-full grid grid-cols-3">
       {UtilityFirstBase.map((props) => (
         <div key={props.title} className="flex flex-col items-center ">
           {props.icon}

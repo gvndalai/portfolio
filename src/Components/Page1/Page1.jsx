@@ -3,7 +3,7 @@ import { Utilities } from "./Utilities";
 import { Button } from "../Button";
 export const Page1 = () => {
   return (
-    <div className="flex flex-col  items-center w-full  px-[80px] py-[96px]">
+    <div className="flex flex-col  items-center w-full px-4 py-[64px] sm:px-[80px] sm:py-[96px]">
       {" "}
       <div>
         <Button text="Skills" />
