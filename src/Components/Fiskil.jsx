@@ -24,12 +24,12 @@ const FiskilDescription = [
 export const Fiskil = (props) => {
   return (
     <div
-      className={`flex shadow-sm md:shadow-md rounded-[12px] ${props.reverse}`}
+      className={`flex shadow-sm md:shadow-md rounded-[12px] sm:flex-row flex-col items-center ${props.reverse}`}
     >
-      <div className=" bg-gray-50 rounded-[12px]">
-        <img src="Picture.png" className="w-[480px] m-[48px]" alt="" />
+      <div className=" bg-gray-50 rounded-[12px] p-8 ">
+        <img src="Picture.png" className="sm:w-[480px]  sm:m-[48px]" alt="" />
       </div>
-      <div className="w-[480px] m-[48px]">
+      <div className="sm:w-[480px] sm:m-[48px]">
         {FiskilDescription.map((skil, index) => {
           return (
             <FiskilWork

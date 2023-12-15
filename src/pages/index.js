@@ -8,7 +8,7 @@ import { Footer } from "@/Components/Footer";
 const IndexPage = () => {
   return (
     <div
-      className="mx-auto w-[1440px] flex flex-col items-center"
+      className="mx-auto sm:w-[1440px] w-full flex flex-col items-center"
       id="background"
     >
       <Header />
