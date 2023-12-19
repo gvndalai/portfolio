@@ -1,9 +1,9 @@
 import React from "react";
-import { LocationIcon } from "./Icons/LocationIcon";
-import { GreenDot } from "./Icons/GreenDot";
-import { GitIcon } from "./Icons/GitIcon";
-import { TwitterIcon } from "./Icons/TwitterIcon";
-import { FigmaIcon } from "./Icons/FigmaIcon";
+import { LocationIcon } from "./icons/LocationIcon";
+import { GreenDot } from "./icons/GreenDot";
+import { GitIcon } from "./icons/GitIcon";
+import { TwitterIcon } from "./icons/TwitterIcon";
+import { FigmaIcon } from "./icons/FigmaIcon";
 export const GeneralIntro = () => {
   return (
     <div class="h-fit w-full">

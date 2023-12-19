@@ -1,7 +1,7 @@
 import React from "react";
-import { LightModeIcon } from "./Icons/LightModeIcon";
-import { SSicon } from "./Icons/SSIcon";
-import { DarkModeIcon } from "./Icons/DarkModeIcon";
+import { LightModeIcon } from "./icons/LightModeIcon";
+import { SSicon } from "./icons/SSIcon";
+import { DarkModeIcon } from "./icons/DarkModeIcon";
 import { Menu } from "./Menu";
 
 export const Header = () => {

@@ -1,12 +1,12 @@
 import React from "react";
-import { JavaScriptIcon } from "../Tools.jsx/JavaScriptIcon";
-import { TypeScriptIcon } from "../Tools.jsx/TypeScriptIcon";
-import { ReactIcon } from "../Tools.jsx/ReactIcon";
-import { NextIcon } from "../Tools.jsx/NextIcon";
-import { NodeIcon } from "../Tools.jsx/NodeIcon";
-import { ExpressIcon } from "../Tools.jsx/ExpressIcon";
-import { NestIcon } from "../Tools.jsx/NestIcon";
-import { SocketIcon } from "../Tools.jsx/Socket";
+import { JavaScriptIcon } from "../tools/JavaScriptIcon";
+import { TypeScriptIcon } from "../tools/TypeScriptIcon";
+import { ReactIcon } from "../tools/ReactIcon";
+import { NextIcon } from "../tools/NextIcon";
+import { NodeIcon } from "../tools/NodeIcon";
+import { ExpressIcon } from "../tools/ExpressIcon";
+import { NestIcon } from "../tools/NestIcon";
+import { SocketIcon } from "../tools/Socket";
 
 const UtilityFirstBase = [
   {

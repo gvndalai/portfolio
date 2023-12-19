@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "./Icons/Link";
+import { Link } from "./icons/Link";
 export const FiskilWork = (props) => {
   return (
     <div className="flex ">

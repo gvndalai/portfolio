@@ -1,8 +1,8 @@
 import React from "react";
 import { Button } from "./Button";
-import { GitIcon } from "./Icons/GitIcon";
-import { TwitterIcon } from "./Icons/TwitterIcon";
-import { FigmaIcon } from "./Icons/FigmaIcon";
+import { GitIcon } from "./icons/GitIcon";
+import { TwitterIcon } from "./icons/TwitterIcon";
+import { FigmaIcon } from "./icons/FigmaIcon";
 export const Footer = () => {
   return (
     <div className="w-full">

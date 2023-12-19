@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "./Button";
-import { Background } from "../Components/Background";
+import { Background } from "./Background";
 const jobDescription = [
   {
     title: "Sr. Frontend Developer",

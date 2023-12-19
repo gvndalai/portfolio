@@ -1,5 +1,5 @@
 import React from "react";
-import { UpworkIcon } from "./Icons/UpworkIcon";
+import { UpworkIcon } from "./icons/UpworkIcon";
 export const Background = (props) => {
   return (
     <div className=" flex flex-col gap-12">
