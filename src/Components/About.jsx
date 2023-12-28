@@ -1,7 +1,7 @@
 import React from "react";
 export const About = () => {
   return (
-    <div class="about-wrapper sm:w-[1440px] h-a uto sm:px-24 sm:py-20 flex bg-gray-50 flex-col  items-center">
+    <div class="about-wrapper sm:w-[1440px] h-auto sm:px-24 sm:py-20 flex bg-gray-50 flex-col  items-center">
       <div class="flex flex-col gap-12 py-8 items-center p-4">
         <button class="About-me-text w-[105px] h-[28px] px-5 py-1 rounded-xl flex items-center justify-center font-medium text-sm bg-custom-color-about-me bg-custom-gray-light">
           About me
