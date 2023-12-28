@@ -15,17 +15,7 @@ export const About = () => {
           </div>
           <div class="flex flex-col h-full sm:w-1/2 ">
             <h1 class="text-[30px] ">Curious about me? Here you have it</h1>
-            <p>
-              Erwin was a complex character, portrayed as serious, calculating,
-              and always planning far in the future. While he trusted his men,
-              he was the first to realize that there was a spy interfering with
-              the Survey Corps, and was able to come up with a reasonable
-              criteria to determine which of his soldiers to trust with vital
-              information, and which to keep in the dark. An eloquent speaker,
-              Erwin was able to sway many people, such as the military tribunal
-              held to judge Eren and the trainees into choosing which
-              recruitment branches to join.
-            </p>
+            <p></p>
             <p>
               Erwin was often seen as a very grim individual. He accepted all
               news, good or bad, mockery or praise, with the same stoic
