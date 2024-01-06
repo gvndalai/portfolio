@@ -33,4 +33,10 @@ body {
 .bg-custom-gray-light:active{
   background-color: #F3F4F6;
 }
-
+.hamburger-list{
+  border-bottom: 1px solid var(--Gray-100, #F3F4F6);
+  border-top: 1px solid var(--Gray-100, #F3F4F6);
+}
+.hamburger-menu{
+  border-bottom: 1px solid var(--Gray-100, #F3F4F6);
+}
