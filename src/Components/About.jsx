@@ -24,7 +24,7 @@ export const About = () => {
               information, and which to keep in the dark. An eloquent speaker,
               Erwin was able to sway many people, such as the military tribunal
               held to judge Eren and the trainees into choosing which
-              recruitment branches to join.
+              recruitment .
             </p>
             <p>
               Erwin was often seen as a very grim individual. He accepted all
