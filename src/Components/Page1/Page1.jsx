@@ -1,6 +1,6 @@
 import React from "react";
 import { Utilities } from "./Utilities";
-import { Button } from "../Button";
+import { Button } from "../button";
 export const Page1 = () => {
   return (
     <div className="flex flex-col  items-center w-full px-4 py-[64pxgit ] sm:px-[80px] sm:py-[96px]">

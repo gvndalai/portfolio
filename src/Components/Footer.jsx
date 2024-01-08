@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "./Button";
+import { Button } from "./button";
 import { GitIcon } from "./icons/GitIcon";
 import { TwitterIcon } from "./icons/TwitterIcon";
 import { FigmaIcon } from "./icons/FigmaIcon";

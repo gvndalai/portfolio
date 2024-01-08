@@ -1,6 +1,6 @@
 import React from "react";
-import { Button } from "./Button";
-import { Fiskil } from "./Fiskil";
+import { Button } from "./button";
+import { Fiskil } from "./fiskil";
 export const Work = () => {
   return (
     <div
