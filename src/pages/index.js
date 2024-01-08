@@ -9,7 +9,7 @@ import { Footer } from "@/components/Footer";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import Head from "next/head";
-import { HamburgerMenu } from "@/components/HamburgerMenu";
+// import { HamburgerMenu } from "@/components/HamburgerMenu";
 
 const IndexPage = () => {
   const pageRef = useRef();
@@ -43,7 +43,7 @@ const IndexPage = () => {
         id="background"
         ref={pageRef}
       >
-        <HamburgerMenu />
+        {/* <HamburgerMenu /> */}
         <Header onDownloadPdf={downloadPdf} />
         <GeneralIntro />
         <About />
