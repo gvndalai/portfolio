@@ -1,19 +1,19 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { LightModeIcon } from "./icons/LightModeIcon";
 import { DarkModeIcon } from "./icons/DarkModeIcon";
 import { Menu } from "./Menu";
 import { SSicon } from "./icons/SSIcon";
 
 export const Header = ({ onDownloadPdf }) => {
-  const [isHamburgerMenuVisible, setIsHamburgerMenuVisible] = useState(false);
-  const toggleHamburgerMenu = () => {
-    setIsHamburgerMenuVisible(!isHamburgerMenuVisible);
-  };
+  // const [isHamburgerMenuVisible, setIsHamburgerMenuVisible] = useState(false);
+  // const toggleHamburgerMenu = () => {
+  //   setIsHamburgerMenuVisible(!isHamburgerMenuVisible);
+  // };
   return (
     <div className="w-full flex justify-between sm:px-20 p-4 sm:py-4 relative">
       <SSicon />
       <div className="absolute p-[22px] right-0 top-0 block sm:hidden">
-        <Menu onClick={toggleHamburgerMenu} />
+        <Menu />
       </div>
       <div className="sm:flex sm:gap-6 hidden sm:block">
         <div className="flex gap-6 items-center">
@@ -43,7 +43,7 @@ export const Header = ({ onDownloadPdf }) => {
           </button>
         </div>
       </div>
-      {isHamburgerMenuVisible && <HamburgerMenu />}
+      {/* {isHamburgerMenuVisible && <HamburgerMenu />} */}
     </div>
   );
 };
