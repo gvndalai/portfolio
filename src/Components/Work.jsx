@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "./button";
+import { Button } from "./Button";
 import { Fiskil } from "./fiskil";
 export const Work = () => {
   return (

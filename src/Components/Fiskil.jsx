@@ -1,6 +1,6 @@
 import React from "react";
-import { FiskilWork } from "./FiskilWork";
-import { Button } from "./button";
+import { FiskilWork } from "./fiskilWork";
+import { Button } from "./Button";
 const FiskilDescription = [
   {
     title: "Fiskil",
